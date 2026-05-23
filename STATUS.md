@@ -1,7 +1,6 @@
 # Status
 
 - Project: Property Casualty Product Performance Workbench
-- GitHub: https://github.com/Saurav-Kanegaonkar/Property-Casualty-Product-Performance-Workbench
-- Status: complete
+- Status: upgraded through the Portfolio Artifact Upgrade Workflow.
 - Resume Link Ready: Yes
-- Last update: Created to locked pipeline standards with multiple data sources, analysis artifacts, scripts, screenshot, and distinct artifact framing.
+- Last update: Rebuilt as a three-surface P&C product analyst artifact with synthetic portfolio data, filing readiness, underwriting automation review, business requirements, analysis outputs, and verified screenshots.

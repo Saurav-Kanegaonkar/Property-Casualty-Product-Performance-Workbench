@@ -1,0 +1,9 @@
+requirement_id,capability,business_requirement,requesting_team,delivery_partner,priority,status
+BR-001,Loss ratio monitor,Create state and product alert when monthly loss ratio is 8 pts above rolling target.,Product,IT,High,Ready for sizing
+BR-002,Inspection trigger,Route property risks to review when exposure index is high and inspection completion is below target.,Underwriting,IT,High,In review
+BR-003,Filing packet tracker,"Expose manual sections, rate indication, proposed change, and compliance packet status in one view.",Compliance,Product,High,Accepted
+BR-004,Telematics adoption,Identify auto segments where telematics eligibility is high but enrollment lags.,Product,Underwriting,Medium,Drafted
+BR-005,Farm outbuilding review,Flag farm segments with severity movement and missing outbuilding documentation.,Claims,Underwriting,Medium,Ready for sizing
+BR-006,Retention watchlist,Rank profitable segments with retention pressure before rate changes are submitted.,Product,Actuarial,Medium,In review
+BR-007,Guideline exception QA,Sample automated approvals where guideline exception rate exceeds threshold.,Underwriting,Compliance,High,Accepted
+BR-008,Implementation handoff,"Track product decision, actuarial support, IT requirement, and effective date readiness.",Product,IT,Medium,Drafted

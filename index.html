@@ -6,49 +6,190 @@
   <title>Property Casualty Product Performance Workbench</title>
   <link rel="stylesheet" href="src/styles.css">
 </head>
-<body style="--accent:#4f46e5;--bg:#f4f5ff">
-  <main class="shell">
-    <header class="hero">
+<body>
+  <main class="app-shell">
+    <header class="topbar">
       <div>
-        <p class="eyebrow">Workbench / property and casualty insurance product performance analytics</p>
-        <h1>Property Casualty Product Performance Workbench</h1>
+        <p class="eyebrow">Regional P&C product analytics</p>
+        <h1>Product Performance Workbench</h1>
       </div>
-      <aside>
-        <b>Purpose</b>
-        <span>Turn messy underwriting segment-level signals into a ranked operating artifact with recommendations a stakeholder can act on.</span>
-      </aside>
+      <div class="topbar__meta">
+        <span>Six-state portfolio</span>
+        <span>Synthetic operating model</span>
+      </div>
     </header>
-    <section class="metrics">
-      <article><span>Modeled rows</span><strong>6.0K+</strong><em>source-style</em></article>
-      <article><span>Ranked queue</span><strong>25</strong><em>underwriting segments</em></article>
-      <article><span>Action pool</span><strong>220</strong><em>candidates</em></article>
-      <article><span>Review time</span><strong>-6 hrs</strong><em>weekly</em></article>
-    </section>
-    <section class="main-grid">
-      <article class="panel lead">
-        <p class="eyebrow">Semantic model</p>
-        <h2>Priority queue</h2>
-        <table>
-          <thead><tr><th>underwriting segment</th><th>Signal</th><th>Risk</th><th>Next move</th></tr></thead>
-          <tbody>
-            <tr><td>Segment A</td><td>Source validation</td><td>High</td><td>Escalate with source check</td></tr>
-            <tr><td>Segment B</td><td>Self-service readiness</td><td>Medium</td><td>Test with clear owner</td></tr>
-            <tr><td>Segment C</td><td>Quality gap</td><td>Watch</td><td>Document metric definition</td></tr>
-          </tbody>
-        </table>
+
+    <nav class="tabs" aria-label="Workbench views">
+      <button class="tab is-active" type="button" data-view="portfolio">Portfolio Monitor</button>
+      <button class="tab" type="button" data-view="filing">Filing Planner</button>
+      <button class="tab" type="button" data-view="automation">Automation Review</button>
+    </nav>
+
+    <section class="metrics" id="summaryMetrics" aria-label="Portfolio summary"></section>
+
+    <section class="view is-active" id="portfolioView" aria-labelledby="portfolioTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Performance and portfolio analytics</p>
+          <h2 id="portfolioTitle">Where loss ratio, combined ratio, growth, and retention require product action</h2>
+        </div>
+        <label class="select-wrap">
+          <span>State focus</span>
+          <select id="stateFilter" aria-label="Filter state">
+            <option value="all">All states</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <p class="eyebrow">State scan</p>
+            <h3>Portfolio heat map</h3>
+          </div>
+          <div class="state-map" id="stateMap"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Product mix</p>
+            <h3>Combined ratio by product line</h3>
+          </div>
+          <div class="bar-list" id="productMix"></div>
+        </article>
+      </div>
+
+      <article class="panel table-panel">
+        <div class="panel-heading">
+          <p class="eyebrow">Prioritized action queue</p>
+          <h3>Segments that need product, underwriting, or actuarial attention</h3>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Segment</th>
+                <th>State</th>
+                <th>Line</th>
+                <th>Combined</th>
+                <th>Retention</th>
+                <th>Indication</th>
+                <th>Recommended action</th>
+              </tr>
+            </thead>
+            <tbody id="actionRows"></tbody>
+          </table>
+        </div>
       </article>
-      <article class="panel narrative">
-        <p class="eyebrow">What the analysis says</p>
-        <h2>Recommendations over screenshots</h2>
-        <p>The artifact is built around decisions, not dashboard decoration: each source table feeds a ranked queue, and each queue item resolves into a recommendation.</p>
-        <p>The strongest opportunities appear where performance upside, measurement quality, and operating readiness overlap.</p>
+    </section>
+
+    <section class="view" id="filingView" aria-labelledby="filingTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Product development and maintenance</p>
+          <h2 id="filingTitle">Rate, rule, form, and guideline work organized for filing readiness</h2>
+        </div>
+      </div>
+
+      <div class="filing-grid">
+        <article class="panel table-panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Lowest readiness first</p>
+            <h3>Filing and maintenance backlog</h3>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>State</th>
+                  <th>Line</th>
+                  <th>Indication</th>
+                  <th>Proposed</th>
+                  <th>Complexity</th>
+                  <th>Readiness</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="filingRows"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Manual and guideline impact</p>
+            <h3>Work items for product review</h3>
+          </div>
+          <div class="filing-cards" id="filingCards"></div>
+        </article>
+      </div>
+
+      <article class="panel">
+        <div class="panel-heading">
+          <p class="eyebrow">Business requirements</p>
+          <h3>Translation layer for product, underwriting, actuarial, claims, compliance, and IT</h3>
+        </div>
+        <div class="requirements" id="requirements"></div>
       </article>
     </section>
-    <section class="recommendations">
-      <article><b>01</b><h3>Validate</h3><p>Confirm source definitions before scaling the insight into recurring reporting.</p></article>
-      <article><b>02</b><h3>Prioritize</h3><p>Move the highest-value underwriting segment segment into the next operating review.</p></article>
-      <article><b>03</b><h3>Automate</h3><p>Convert the queue into a stakeholder-ready digest for repeated decisions.</p></article>
+
+    <section class="view" id="automationView" aria-labelledby="automationTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Data, technology, and process improvement</p>
+          <h2 id="automationTitle">Explainable review flags for automated underwriting decisions</h2>
+        </div>
+      </div>
+
+      <div class="automation-grid">
+        <article class="panel table-panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Human review queue</p>
+            <h3>Complex or region-specific risks</h3>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Segment</th>
+                  <th>State</th>
+                  <th>Line</th>
+                  <th>Exposure</th>
+                  <th>Inspection</th>
+                  <th>Exceptions</th>
+                  <th>Review</th>
+                </tr>
+              </thead>
+              <tbody id="automationRows"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-heading">
+            <p class="eyebrow">Decision logic</p>
+            <h3>Why the queue flags a segment</h3>
+          </div>
+          <div class="logic-stack">
+            <div>
+              <strong>Exposure signal</strong>
+              <span>Territory and catastrophe pattern indicate higher expected volatility.</span>
+            </div>
+            <div>
+              <strong>Workflow signal</strong>
+              <span>Inspection completion and guideline exception rates show where automation needs guardrails.</span>
+            </div>
+            <div>
+              <strong>Action signal</strong>
+              <span>The queue connects review flags to inspections, telematics, property improvements, and guideline updates.</span>
+            </div>
+          </div>
+          <div class="review-cards" id="automationCards"></div>
+        </article>
+      </div>
     </section>
   </main>
+  <script src="src/app_data.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>

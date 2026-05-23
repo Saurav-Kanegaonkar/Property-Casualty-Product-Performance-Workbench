@@ -2,14 +2,14 @@
 
 ## What I analyzed
 
-I joined 5,040 daily metric rows, 760 source events, and 220 action candidates for property and casualty insurance product performance analytics.
+I generated and scored a synthetic regional P&C product portfolio across six Western states, four product lines, 96 underwriting segments, 1,152 monthly operating rows, 24 filing work items, and 8 business requirements.
 
 ## Findings
 
-- The highest-priority underwriting segment is UND022 with a priority score of 98.39.
-- The top queue combines 49.9 average risk with 81.0 quality score and $858,979 estimated impact.
-- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
+- The highest priority product action is CO-AU-03 in CO Auto, with a 123.6% combined ratio and 100 action score.
+- The lowest filing readiness item is CO Farm and Ranch, with 35 readiness and needs product owner decision.
+- The top underwriting automation review flag is CA-FR-03, driven by 71.2 exposure index, 69.7% inspection completion, and 37.0% guideline exception rate.
 
 ## Recommendation
 
-Prioritize the top queue before scaling more dashboards. The project should help leaders decide which underwriting segment risks need action, validation, or monitoring.
+Use the workbench as a product review packet: review adverse combined ratio movement, decide filing path, and route complex automated underwriting outcomes to targeted human review before scaling workflow automation.

@@ -1,0 +1,25 @@
+state,product_line,earned_premium,loss_ratio,combined_ratio,rate_indication,proposed_rate_change,filing_complexity,readiness_score,filing_status,manual_sections,form_or_rule_dependency,owner
+WA,Home,48777708,74.3,103.7,7.3,5.4,Medium,64.6,Needs compliance packet,Territory factors; Eligibility; Inspection trigger,Territory factors,Actuarial
+WA,Auto,36737786,80.4,105.4,8.3,6.2,High,61.7,Needs compliance packet,Telematics discount; Farm outbuilding coverage; Eligibility,Telematics discount,Claims
+WA,Farm and Ranch,27316507,85.0,113.7,13.4,10.1,High,49.0,Needs product owner decision,Deductible options; Eligibility; Telematics discount,Deductible options,IT
+WA,Umbrella,9257489,56.2,77.6,-4,-3,Low,82.1,Ready for actuarial review,Inspection trigger; Farm outbuilding coverage; Telematics discount,Inspection trigger,Compliance
+OR,Home,44623525,71.6,101.2,5.7,4.3,Medium,71.8,Needs compliance packet,Renewal review; Protection class; Inspection trigger,Renewal review,Product
+OR,Auto,36211245,76.5,101.9,6.2,4.6,Medium,67.7,Needs compliance packet,Inspection trigger; Territory factors; Farm outbuilding coverage,Inspection trigger,Underwriting
+OR,Farm and Ranch,25080712,82.9,111.4,12.0,9.0,High,52.0,Needs product owner decision,Protection class; Territory factors; Renewal review,Protection class,Actuarial
+OR,Umbrella,8946722,55.5,76.6,-4,-3,Low,88.0,Ready for actuarial review,Farm outbuilding coverage; Telematics discount; Territory factors,Farm outbuilding coverage,Claims
+ID,Home,44934085,70.3,100.2,5.1,3.8,Medium,75.5,Ready for actuarial review,Inspection trigger; Territory factors; Deductible options,Inspection trigger,IT
+ID,Auto,34541859,75.8,101.2,5.7,4.3,Medium,71.9,Needs compliance packet,Territory factors; Telematics discount; Inspection trigger,Territory factors,Compliance
+ID,Farm and Ranch,25365707,79.7,108.0,9.9,7.5,High,56.2,Needs product owner decision,Protection class; Territory factors; Farm outbuilding coverage,Protection class,Product
+ID,Umbrella,8926376,53.3,74.8,-4,-3,Low,83.2,Ready for actuarial review,Protection class; Territory factors; Eligibility,Protection class,Underwriting
+CO,Home,52481568,80.4,109.9,11.1,8.3,High,55.9,Needs product owner decision,Eligibility; Protection class; Territory factors,Eligibility,Actuarial
+CO,Auto,40417997,87.6,112.9,13.0,9.7,High,44.6,Needs product owner decision,Inspection trigger; Eligibility; Farm outbuilding coverage,Inspection trigger,Claims
+CO,Farm and Ranch,28546028,92.4,121.4,16,12,High,35,Needs product owner decision,Eligibility; Deductible options; Inspection trigger,Eligibility,IT
+CO,Umbrella,10202578,62.0,82.8,-4,-3,High,76.8,Ready for actuarial review,Deductible options; Territory factors; Protection class,Deductible options,Compliance
+CA,Home,53518256,87.8,117.2,15.6,11.7,High,41.8,Needs product owner decision,Eligibility; Farm outbuilding coverage; Deductible options,Eligibility,Product
+CA,Auto,42752624,92.1,117.6,15.9,11.9,High,38.5,Needs product owner decision,Farm outbuilding coverage; Eligibility; Protection class,Farm outbuilding coverage,Underwriting
+CA,Farm and Ranch,29886314,100.0,128.8,16,12,High,35,Needs product owner decision,Telematics discount; Renewal review; Deductible options,Telematics discount,Actuarial
+CA,Umbrella,10407125,68.4,89.9,-1.3,-1.0,High,73.0,Ready for actuarial review,Eligibility; Territory factors; Renewal review,Eligibility,Claims
+WY,Home,46415294,75.5,105.2,8.2,6.1,High,59.4,Needs compliance packet,Telematics discount; Territory factors; Protection class,Telematics discount,IT
+WY,Auto,35779992,82.8,108.1,10.0,7.5,High,52.7,Needs product owner decision,Territory factors; Deductible options; Renewal review,Territory factors,Compliance
+WY,Farm and Ranch,27350121,87.3,116.2,15.0,11.2,High,40.3,Needs product owner decision,Renewal review; Protection class; Inspection trigger,Renewal review,Product
+WY,Umbrella,9654153,58.3,79.6,-4,-3,Low,88.1,Ready for actuarial review,Territory factors; Telematics discount; Eligibility,Territory factors,Underwriting

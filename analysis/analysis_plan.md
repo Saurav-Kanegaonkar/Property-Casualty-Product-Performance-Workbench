@@ -1,6 +1,8 @@
 # Analysis Plan
 
-1. Aggregate daily metrics at underwriting segment grain.
-2. Join events and action candidates to find high-risk operating segments.
-3. Rank the queue by risk, quality, and estimated impact.
-4. Convert the top issues into stakeholder-ready recommendations.
+1. Generate synthetic monthly P&C portfolio metrics by state, product line, territory, and underwriting segment.
+2. Calculate loss ratio, combined ratio, retention, claim frequency, rate indication, and target gap.
+3. Rank product actions by combined ratio gap, rate need, retention pressure, and exposure index.
+4. Rank filing readiness by rate indication, regulatory complexity, manual sections impacted, and implementation status.
+5. Rank automated decisioning review by exposure index, inspection gaps, guideline exceptions, and automation approval rate.
+6. Convert the ranked outputs into a portfolio monitor, filing planner, and underwriting review queue.

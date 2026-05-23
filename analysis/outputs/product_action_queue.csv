@@ -1,0 +1,25 @@
+segment_id,state,product_line,territory,earned_premium,loss_ratio,combined_ratio,retention,target_gap,rate_indication,action_score,recommendation,owner
+CO-AU-03,CO,Auto,Wildland interface,10327556,98.3,123.6,70.1,29.6,18,100,Tighten guideline and inspection trigger,Product
+CO-FR-03,CO,Farm and Ranch,Wildland interface,7244669,103.5,132.5,74.6,38.5,18,100,Tighten guideline and inspection trigger,Underwriting
+CO-FR-04,CO,Farm and Ranch,Mountain and hail belt,7562563,97.5,126.8,76.5,32.8,18,100,Tighten guideline and inspection trigger,Actuarial
+CA-HO-03,CA,Home,Wildland interface,13928513,97.1,126.3,71.3,32.3,18,100,Tighten guideline and inspection trigger,Product
+CA-HO-04,CA,Home,Mountain and hail belt,13863420,93.9,123.8,71.3,29.8,18,100,Tighten guideline and inspection trigger,Underwriting
+CA-AU-03,CA,Auto,Wildland interface,10425072,103.7,129.2,70.1,35.2,18,100,Tighten guideline and inspection trigger,Underwriting
+CA-AU-04,CA,Auto,Mountain and hail belt,11126847,97.2,123.8,70.1,29.8,18,100,Tighten guideline and inspection trigger,Actuarial
+CA-FR-03,CA,Farm and Ranch,Wildland interface,7790702,113.8,142.5,72.9,48.5,18,100,Tighten guideline and inspection trigger,Actuarial
+CA-FR-04,CA,Farm and Ranch,Mountain and hail belt,6765726,103.4,131.3,76.7,37.3,18,100,Tighten guideline and inspection trigger,Claims
+WY-AU-03,WY,Auto,Wildland interface,9226044,93.4,119.0,71.2,25.0,18,100,Tighten guideline and inspection trigger,Actuarial
+WY-FR-03,WY,Farm and Ranch,Wildland interface,6616953,98.0,126.7,77.5,32.7,18,100,Tighten guideline and inspection trigger,Claims
+CO-AU-04,CO,Auto,Mountain and hail belt,10484013,92.1,117.8,71.0,23.8,18,99.1,Tighten guideline and inspection trigger,Underwriting
+WA-FR-03,WA,Farm and Ranch,Wildland interface,7023337,95.3,123.5,78.2,29.5,18,97.9,Tighten guideline and inspection trigger,IT
+CA-FR-02,CA,Farm and Ranch,Rural farm belt,7496249,95.4,124.2,79.5,30.2,18,97.3,Route to underwriting review,Underwriting
+CA-AU-02,CA,Auto,Rural farm belt,10953388,90.1,115.3,71.1,21.3,18,94.9,Route to underwriting review,Product
+CO-HO-03,CO,Home,Wildland interface,13325228,87.5,116.9,73.7,22.9,16.9,92.8,Tighten guideline and inspection trigger,Compliance
+WA-AU-03,WA,Auto,Wildland interface,9679404,90.9,115.6,74.0,21.6,18,92.0,Tighten guideline and inspection trigger,Claims
+OR-FR-03,OR,Farm and Ranch,Wildland interface,6473146,89.5,117.8,77.2,23.8,18,90.9,Tighten guideline and inspection trigger,Compliance
+WY-FR-04,WY,Farm and Ranch,Mountain and hail belt,7122908,91.8,120.8,82.3,26.8,18,89.0,Tighten guideline and inspection trigger,IT
+WY-AU-04,WY,Auto,Mountain and hail belt,8806899,88.3,113.3,72.5,19.3,17.4,88.8,Tighten guideline and inspection trigger,Claims
+OR-FR-04,OR,Farm and Ranch,Mountain and hail belt,6059831,89.7,118.2,79.0,24.2,18,88.4,Tighten guideline and inspection trigger,Product
+WA-FR-04,WA,Farm and Ranch,Mountain and hail belt,6404612,89.1,117.7,79.5,23.7,17.9,87.5,Tighten guideline and inspection trigger,Compliance
+CO-HO-04,CO,Home,Mountain and hail belt,13896592,85.8,115.4,74.1,21.4,15.8,87.2,Tighten guideline and inspection trigger,Product
+WY-HO-03,WY,Home,Wildland interface,11223754,85.0,114.3,73.2,20.3,15.4,85.1,Tighten guideline and inspection trigger,Underwriting

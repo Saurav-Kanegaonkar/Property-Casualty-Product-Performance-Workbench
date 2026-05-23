@@ -1,0 +1,97 @@
+segment_id,state,state_name,product_line,territory,geography_type,rate_environment,exposure_index,inspection_completion,telematics_eligible,automation_approval_rate,guideline_exception_rate,baseline_retention,owner
+WA-HO-01,WA,Washington,Home,Urban agency corridor,urban,moderate,18.7,87.2,31.2,65.3,11.1,84.4,Product
+WA-HO-02,WA,Washington,Home,Rural farm belt,rural,moderate,29.5,75.7,36.9,55.0,16.8,80.7,Underwriting
+WA-HO-03,WA,Washington,Home,Wildland interface,wildfire,moderate,48.9,64.7,35.7,49.6,28.6,79.6,Actuarial
+WA-HO-04,WA,Washington,Home,Mountain and hail belt,weather,moderate,42.4,75.9,37.2,57.6,26.8,77.5,Claims
+WA-AU-01,WA,Washington,Auto,Urban agency corridor,urban,moderate,18.7,88.9,50.3,68.2,12.8,80.4,Underwriting
+WA-AU-02,WA,Washington,Auto,Rural farm belt,rural,moderate,29.5,77.0,54.3,60.1,21.1,77.3,Actuarial
+WA-AU-03,WA,Washington,Auto,Wildland interface,wildfire,moderate,48.9,70.3,52.1,52.1,30.7,74.5,Claims
+WA-AU-04,WA,Washington,Auto,Mountain and hail belt,weather,moderate,42.4,68.4,47.9,49.8,26.0,73.1,IT
+WA-FR-01,WA,Washington,Farm and Ranch,Urban agency corridor,urban,moderate,18.7,85.1,29.8,68.0,14.4,83.0,Actuarial
+WA-FR-02,WA,Washington,Farm and Ranch,Rural farm belt,rural,moderate,29.5,72.0,33.9,57.3,20.1,81.3,Claims
+WA-FR-03,WA,Washington,Farm and Ranch,Wildland interface,wildfire,moderate,48.9,69.5,37.5,51.5,28.3,77.7,IT
+WA-FR-04,WA,Washington,Farm and Ranch,Mountain and hail belt,weather,moderate,42.4,67.1,30.4,53.1,22.9,80.3,Compliance
+WA-UM-01,WA,Washington,Umbrella,Urban agency corridor,urban,moderate,18.7,84.7,33.5,62.4,17.9,87.8,Claims
+WA-UM-02,WA,Washington,Umbrella,Rural farm belt,rural,moderate,29.5,80.9,33.3,57.1,21.3,84.0,IT
+WA-UM-03,WA,Washington,Umbrella,Wildland interface,wildfire,moderate,48.9,63.4,35.2,46.5,31.3,81.3,Compliance
+WA-UM-04,WA,Washington,Umbrella,Mountain and hail belt,weather,moderate,42.4,73.2,36.5,50.8,25.3,82.3,Product
+OR-HO-01,OR,Oregon,Home,Urban agency corridor,urban,moderate,18,83.6,38.8,63.3,13.9,82.2,Underwriting
+OR-HO-02,OR,Oregon,Home,Rural farm belt,rural,moderate,25.2,74.4,34.7,65.1,16.6,82.1,Actuarial
+OR-HO-03,OR,Oregon,Home,Wildland interface,wildfire,moderate,44.0,65.9,37.4,53.9,28.0,78.5,Claims
+OR-HO-04,OR,Oregon,Home,Mountain and hail belt,weather,moderate,37.7,70.9,34.0,57.6,21.4,77.2,IT
+OR-AU-01,OR,Oregon,Auto,Urban agency corridor,urban,moderate,18,80.5,54.0,68.6,16.3,78.4,Actuarial
+OR-AU-02,OR,Oregon,Auto,Rural farm belt,rural,moderate,25.2,72.5,49.0,58.6,19.3,79.1,Claims
+OR-AU-03,OR,Oregon,Auto,Wildland interface,wildfire,moderate,44.0,69.8,46.0,52.8,28.0,71.8,IT
+OR-AU-04,OR,Oregon,Auto,Mountain and hail belt,weather,moderate,37.7,66.4,46.2,58.7,22.3,77.6,Compliance
+OR-FR-01,OR,Oregon,Farm and Ranch,Urban agency corridor,urban,moderate,18,86.0,32.7,67.2,12.4,84.9,Claims
+OR-FR-02,OR,Oregon,Farm and Ranch,Rural farm belt,rural,moderate,25.2,77.5,34.5,57.7,15.3,83.5,IT
+OR-FR-03,OR,Oregon,Farm and Ranch,Wildland interface,wildfire,moderate,44.0,66.6,35.4,51.3,29.2,78.1,Compliance
+OR-FR-04,OR,Oregon,Farm and Ranch,Mountain and hail belt,weather,moderate,37.7,74.7,30.2,56.4,20.6,80.5,Product
+OR-UM-01,OR,Oregon,Umbrella,Urban agency corridor,urban,moderate,18,81.3,30.3,68.1,17.5,89.2,IT
+OR-UM-02,OR,Oregon,Umbrella,Rural farm belt,rural,moderate,25.2,80.7,38.9,63.5,19.3,84.2,Compliance
+OR-UM-03,OR,Oregon,Umbrella,Wildland interface,wildfire,moderate,44.0,64.6,30.2,50.8,28.1,83.2,Product
+OR-UM-04,OR,Oregon,Umbrella,Mountain and hail belt,weather,moderate,37.7,73.6,33.9,51.8,23.7,81.3,Underwriting
+ID-HO-01,ID,Idaho,Home,Urban agency corridor,urban,light,18,89.7,35.8,67.2,13.3,81.8,Actuarial
+ID-HO-02,ID,Idaho,Home,Rural farm belt,rural,light,23.1,78.3,38.4,65.2,19.7,81.9,Claims
+ID-HO-03,ID,Idaho,Home,Wildland interface,wildfire,light,41.5,64.8,36.3,50.9,26.6,77.5,IT
+ID-HO-04,ID,Idaho,Home,Mountain and hail belt,weather,light,35.4,68.4,38.4,53.3,23.0,82.1,Compliance
+ID-AU-01,ID,Idaho,Auto,Urban agency corridor,urban,light,18,82.3,46.1,60.0,16.0,81.5,Claims
+ID-AU-02,ID,Idaho,Auto,Rural farm belt,rural,light,23.1,73.3,49.8,65.5,16.5,77.4,IT
+ID-AU-03,ID,Idaho,Auto,Wildland interface,wildfire,light,41.5,65.4,48.7,51.9,26.4,75.2,Compliance
+ID-AU-04,ID,Idaho,Auto,Mountain and hail belt,weather,light,35.4,69.2,53.7,54.8,23.8,76.3,Product
+ID-FR-01,ID,Idaho,Farm and Ranch,Urban agency corridor,urban,light,18,82.3,33.5,67.4,14.7,86.2,IT
+ID-FR-02,ID,Idaho,Farm and Ranch,Rural farm belt,rural,light,23.1,72.4,38.8,65.8,15.7,83.4,Compliance
+ID-FR-03,ID,Idaho,Farm and Ranch,Wildland interface,wildfire,light,41.5,71.3,35.7,54.0,21.8,82.1,Product
+ID-FR-04,ID,Idaho,Farm and Ranch,Mountain and hail belt,weather,light,35.4,72.7,30.3,58.5,22.2,82.7,Underwriting
+ID-UM-01,ID,Idaho,Umbrella,Urban agency corridor,urban,light,18,81.7,31.6,64.5,16.4,87.6,Compliance
+ID-UM-02,ID,Idaho,Umbrella,Rural farm belt,rural,light,23.1,75.5,34.2,65.6,18.4,85.7,Product
+ID-UM-03,ID,Idaho,Umbrella,Wildland interface,wildfire,light,41.5,66.8,31.3,49.4,25.9,81.1,Underwriting
+ID-UM-04,ID,Idaho,Umbrella,Mountain and hail belt,weather,light,35.4,69.8,33.9,52.3,22.2,86.4,Actuarial
+CO-HO-01,CO,Colorado,Home,Urban agency corridor,urban,complex,28.3,86.2,31.9,61.8,21.7,82.0,Claims
+CO-HO-02,CO,Colorado,Home,Rural farm belt,rural,complex,40.1,81.9,32.7,52.4,22.7,78.5,IT
+CO-HO-03,CO,Colorado,Home,Wildland interface,wildfire,complex,61.3,71.6,36.8,47.2,31.3,74.6,Compliance
+CO-HO-04,CO,Colorado,Home,Mountain and hail belt,weather,complex,54.2,66.6,33.2,43.9,31.7,75.5,Product
+CO-AU-01,CO,Colorado,Auto,Urban agency corridor,urban,complex,28.3,84.2,46.8,57.8,20.6,75.1,IT
+CO-AU-02,CO,Colorado,Auto,Rural farm belt,rural,complex,40.1,75.0,46.2,56.4,22.1,75.4,Compliance
+CO-AU-03,CO,Colorado,Auto,Wildland interface,wildfire,complex,61.3,67.9,50.1,47.0,37.4,70.5,Product
+CO-AU-04,CO,Colorado,Auto,Mountain and hail belt,weather,complex,54.2,68.9,48.0,45.0,32.0,71.9,Underwriting
+CO-FR-01,CO,Colorado,Farm and Ranch,Urban agency corridor,urban,complex,28.3,88.9,36.3,61.4,19.8,84.0,Compliance
+CO-FR-02,CO,Colorado,Farm and Ranch,Rural farm belt,rural,complex,40.1,77.5,38.5,54.3,22.7,79.6,Product
+CO-FR-03,CO,Colorado,Farm and Ranch,Wildland interface,wildfire,complex,61.3,67.3,31.3,46.3,36.2,75.4,Underwriting
+CO-FR-04,CO,Colorado,Farm and Ranch,Mountain and hail belt,weather,complex,54.2,69.0,37.2,48.3,28.2,77.4,Actuarial
+CO-UM-01,CO,Colorado,Umbrella,Urban agency corridor,urban,complex,28.3,88.3,29.5,55.7,18.8,87.8,Product
+CO-UM-02,CO,Colorado,Umbrella,Rural farm belt,rural,complex,40.1,81.8,29.9,52.3,22.4,85.2,Underwriting
+CO-UM-03,CO,Colorado,Umbrella,Wildland interface,wildfire,complex,61.3,68.2,30.9,41.7,31.5,79.7,Actuarial
+CO-UM-04,CO,Colorado,Umbrella,Mountain and hail belt,weather,complex,54.2,68.3,35.9,47.1,33.5,78.7,Claims
+CA-HO-01,CA,California,Home,Urban agency corridor,urban,complex,36.0,81.4,29.9,53.2,25.9,81.6,IT
+CA-HO-02,CA,California,Home,Rural farm belt,rural,complex,48.6,79.3,35.8,48.0,27.6,76.2,Compliance
+CA-HO-03,CA,California,Home,Wildland interface,wildfire,complex,71.2,70.5,33.6,39.3,39.4,71.9,Product
+CA-HO-04,CA,California,Home,Mountain and hail belt,weather,complex,63.7,71.4,29.3,41.8,36.2,71.8,Underwriting
+CA-AU-01,CA,California,Auto,Urban agency corridor,urban,complex,36.0,87.8,54.6,51.9,24.8,74.0,Compliance
+CA-AU-02,CA,California,Auto,Rural farm belt,rural,complex,48.6,75.4,46.9,46.9,28.2,71.5,Product
+CA-AU-03,CA,California,Auto,Wildland interface,wildfire,complex,71.2,63.6,49.5,35.9,36.2,70.0,Underwriting
+CA-AU-04,CA,California,Auto,Mountain and hail belt,weather,complex,63.7,74.5,47.5,43.8,34.9,71.2,Actuarial
+CA-FR-01,CA,California,Farm and Ranch,Urban agency corridor,urban,complex,36.0,82.1,31.4,60.1,24.0,82.1,Product
+CA-FR-02,CA,California,Farm and Ranch,Rural farm belt,rural,complex,48.6,72.5,30.2,46.7,27.7,80.4,Underwriting
+CA-FR-03,CA,California,Farm and Ranch,Wildland interface,wildfire,complex,71.2,69.7,29.4,36.1,37.0,73.6,Actuarial
+CA-FR-04,CA,California,Farm and Ranch,Mountain and hail belt,weather,complex,63.7,68.4,37.1,44.1,35.3,76.8,Claims
+CA-UM-01,CA,California,Umbrella,Urban agency corridor,urban,complex,36.0,85.3,29.2,54.4,22.4,82.1,Underwriting
+CA-UM-02,CA,California,Umbrella,Rural farm belt,rural,complex,48.6,78.4,29.5,48.2,27.5,83.2,Actuarial
+CA-UM-03,CA,California,Umbrella,Wildland interface,wildfire,complex,71.2,69.9,34.4,41.9,39.0,78.2,Claims
+CA-UM-04,CA,California,Umbrella,Mountain and hail belt,weather,complex,63.7,71.3,36.5,40.1,33.8,80.5,IT
+WY-HO-01,WY,Wyoming,Home,Urban agency corridor,urban,light,20.6,89.0,30.7,61.0,12.6,81.1,Compliance
+WY-HO-02,WY,Wyoming,Home,Rural farm belt,rural,light,31.6,76.0,29.2,56.7,20.3,81.6,Product
+WY-HO-03,WY,Wyoming,Home,Wildland interface,wildfire,light,51.4,67.8,33.5,46.7,28.4,74.2,Underwriting
+WY-HO-04,WY,Wyoming,Home,Mountain and hail belt,weather,light,44.8,72.6,32.7,49.0,25.5,75.6,Actuarial
+WY-AU-01,WY,Wyoming,Auto,Urban agency corridor,urban,light,20.6,84.6,53.9,64.2,13.1,78.0,Product
+WY-AU-02,WY,Wyoming,Auto,Rural farm belt,rural,light,31.6,74.4,47.5,57.9,20.6,76.2,Underwriting
+WY-AU-03,WY,Wyoming,Auto,Wildland interface,wildfire,light,51.4,70.6,46.6,47.1,26.5,72.2,Actuarial
+WY-AU-04,WY,Wyoming,Auto,Mountain and hail belt,weather,light,44.8,67.0,49.9,53.4,28.3,73.1,Claims
+WY-FR-01,WY,Wyoming,Farm and Ranch,Urban agency corridor,urban,light,20.6,82.6,32.3,64.0,18.4,83.8,Underwriting
+WY-FR-02,WY,Wyoming,Farm and Ranch,Rural farm belt,rural,light,31.6,78.2,34.7,54.0,23.5,81.2,Actuarial
+WY-FR-03,WY,Wyoming,Farm and Ranch,Wildland interface,wildfire,light,51.4,67.2,35.7,47.7,30.6,76.7,Claims
+WY-FR-04,WY,Wyoming,Farm and Ranch,Mountain and hail belt,weather,light,44.8,74.4,38.3,51.6,28.3,82.1,IT
+WY-UM-01,WY,Wyoming,Umbrella,Urban agency corridor,urban,light,20.6,81.5,38.9,67.5,16.4,87.1,Actuarial
+WY-UM-02,WY,Wyoming,Umbrella,Rural farm belt,rural,light,31.6,76.6,37.1,53.8,20.9,84.6,Claims
+WY-UM-03,WY,Wyoming,Umbrella,Wildland interface,wildfire,light,51.4,63.3,31.3,47.6,28.4,78.3,IT
+WY-UM-04,WY,Wyoming,Umbrella,Mountain and hail belt,weather,light,44.8,69.9,35.1,55.6,27.0,84.4,Compliance
